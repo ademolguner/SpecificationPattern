@@ -1,0 +1,12 @@
+POST https://localhost:7171/api/campaigns/check
+accept: */*
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "city": "İstanbul",
+  "totalPurchaseAmount": 1200,
+  "membershipLevel": 1,
+  "registrationDate": "2020-01-01T00:00:00",
+  "age": 26
+}
